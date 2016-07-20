@@ -37,9 +37,13 @@ function hw() {
 }
 
 function v() {
-  input = 1.3;
+  input = 1.4;
 }
 
 function at(number) {
   input = str.charAt(number + 1);
+}
+
+function make(name, string) {
+  window.name = string;
 }
