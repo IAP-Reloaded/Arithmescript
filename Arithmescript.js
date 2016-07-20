@@ -16,6 +16,10 @@ function del() {
   input = 0;
 }
 
+function clr() {
+  input = "";
+}
+
 function set(value) {
   input = value;
 }
@@ -33,5 +37,5 @@ function hw() {
 }
 
 function v() {
-  input = 1.1;
+  input = 1.2;
 }
