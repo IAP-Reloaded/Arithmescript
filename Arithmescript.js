@@ -37,5 +37,9 @@ function hw() {
 }
 
 function v() {
-  input = 1.2;
+  input = 1.3;
+}
+
+function at(number) {
+  input = str.charAt(number + 1);
 }
