@@ -1,6 +1,6 @@
 var input = "";
 
-function inp(question, default) {
+function input(question, default) {
   input = prompt(ask, default);
 }
 
