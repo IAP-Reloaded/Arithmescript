@@ -1,6 +1,6 @@
 var input = "";
 
-function in(ask, default) {
+function inp(question, default) {
   input = prompt(ask, default);
 }
 
@@ -36,15 +36,15 @@ function div(number) {
   input /= number;
 }
 
-function hw() {
+function hello() {
   input = "Hello, world!";
 }
 
-function v() {
+function ver() {
   input = 1.5;
 }
 
-function at(number) {
+function char(number) {
   input = str.charAt(number + 1);
 }
 
