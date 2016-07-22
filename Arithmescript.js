@@ -41,7 +41,7 @@ function hello() {
 }
 
 function ver() {
-  input = 1.5;
+  input = 1.5.1;
 }
 
 function char(number) {
