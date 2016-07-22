@@ -1,11 +1,15 @@
 var input = "";
 
-function add(number) {
-  input += number;
+function in(ask, default) {
+  input = prompt(ask, default);
 }
 
 function out() {
   alert(input);
+}
+
+function add(number) {
+  input += number;
 }
 
 function sub(number) {
@@ -37,13 +41,13 @@ function hw() {
 }
 
 function v() {
-  input = 1.4;
+  input = 1.5;
 }
 
 function at(number) {
   input = str.charAt(number + 1);
 }
 
-function make(name, string) {
+function new(name, string) {
   window.name = string;
 }
