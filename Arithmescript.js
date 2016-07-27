@@ -41,7 +41,7 @@ function hello() {
 }
 
 function ver() {
-   input = 1.6;
+   input = 1.6.1;
 }
 
 function char(number) {
@@ -52,11 +52,11 @@ function icantdecideonagoodshortnameforavariablemakingfunction(name, string) {
     window.name = string;
 }
 
-function icantdecideonagoodshortnameforaprimalitycheckerfunction() {
-    for(var i = 2; i < value; i++) {
-        if(value % i === 0) {
+function icantdecideonagoodshortnameforaprimalitycheckerfunction(number) {
+    for(var number = 2; number < value; number++) {
+        if(value % number === 0) {
             return false;
         }
     }
-    var input = value > 1;
+    var input = value > number;
 }
