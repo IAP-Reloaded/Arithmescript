@@ -1,7 +1,7 @@
 var input = "";
 
-function input(question, default) {
-  input = prompt(ask, default);
+function log() {
+  console.log(input);
 }
 
 function out() {
@@ -33,21 +33,30 @@ function mul(number) {
 }
 
 function div(number) {
-  input /= number;
+    input /= number;
 }
 
 function hello() {
-  input = "Hello, world!";
+    input = "Hello, world!";
 }
 
 function ver() {
-  input = 1.5.1;
+   input = 1.6;
 }
 
 function char(number) {
-  input = str.charAt(number + 1);
+    input = str.charAt(number + 1);
 }
 
-function new(name, string) {
-  window.name = string;
+function icantdecideonagoodshortnameforavariablemakingfunction(name, string) {
+    window.name = string;
+}
+
+function icantdecideonagoodshortnameforaprimalitycheckerfunction() {
+    for(var i = 2; i < value; i++) {
+        if(value % i === 0) {
+            return false;
+        }
+    }
+    var input = value > 1;
 }
